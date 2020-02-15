@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<br><br>
+
+<img src = "captcha.php" > <br><br><br><br>
+
+<form action="mainScript.php">
+    
+<input type = text size = 10   name="ucid" autocomplete="off"> Ucid	<br>
+    
+<input type = text  size = 10 name="pass" autocomplete="off"> Password <br>  
+    
+<input type=text name="guess"  > CAPTCHA guess (backdoor: 123) <br>
+    
+<input type = text name = "delay" value = "2"> Delay default is set to 2 seconds <br> 
+
+<input type= "submit" value = "Submit"> 
+</form>
+
+
